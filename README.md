@@ -3,7 +3,10 @@ This project will create a simple code to show your PHP variables in a HTML blac
 This code will combine PHP code and Javascript to easy and quickly make your site development easy.
 
 How to use:
-
+1 - In the end of your PHP file include the "ui_debug.php" file, but make sure to place before the </body> tag of your html output.
+2 - Then open your page in the browser passing the GET comand debug=ligado in the url. Example: www.yoursite.com/index.php?debug=ligado
+    The GET variable will be executed by the ui_debug code, creating a personalized javascript code that will be executed by the browser showing a popup window with the debug information and the classical balck screen.
+    
 If you find some bug or improvement, please share your code.
 Feel free to contact me by email: cristianosimaodeveloper@gmail.com
 
