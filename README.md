@@ -6,7 +6,7 @@ This code will combine PHP code and Javascript to easy and quickly make your sit
 
 <h2>How to use:</h2>
 1 - In the end of your PHP file include the "ui_debug.php" file, but make sure to place before the < / body > tag of your html output.<br>
-2 - Then open your page in the browser passing the GET comand debug=ligado in the url. Example: www.exampleyoursitedomain.com/index.php?debug=on <br>
+2 - Then open your page in the browser passing the GET comand debug=on in the url. Example: www.exampleyoursitedomain.com/index.php?debug=on <br>
     The GET variable will be executed by the ui_debug code, creating a personalized javascript code that will be executed by the browser showing a popup window with the debug information and the classical black screen.<br>
 <br>
 If you find some bug or improvement, please share your code.
