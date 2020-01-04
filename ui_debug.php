@@ -13,7 +13,7 @@ function var_dump_ret($mixed = null) {
 $debug = '';
 if(isset($_GET["debug"])){$debug= $_GET["debug"];}
 
-if($debug == "ligado"){
+if($debug == "on"){
 
 $texto0 = "------ SESSION -----<br>";
 
