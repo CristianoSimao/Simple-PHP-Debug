@@ -14,7 +14,7 @@
 	<title>Simple test page</title>
 </head>
 <body>
-<h2>For see the debug screen enable popup and javascript in this page in your browser. Reload this page with the GET variable debug=ligado in the url </h2>
+<h2>For see the debug screen enable popup and javascript in this page in your browser. Reload this page with the GET variable debug=on in the url </h2>
 <?php
 	include "ui_debug.php";
 ?>
