@@ -1,6 +1,8 @@
 # Simple-PHP-Debug
 This project will create a simple code to show your PHP variables in a HTML black screen each time you reload your site page.
 This code will combine PHP code and Javascript to easy and quickly make your site development easy.
+<h2>Features:</h2>
+- Show variables SESSION, GET and POST in a black screen all time you reload the page with the debug activated.
 
 <h2>How to use:</h2>
 1 - In the end of your PHP file include the "ui_debug.php" file, but make sure to place before the </body> tag of your html output.<br>
