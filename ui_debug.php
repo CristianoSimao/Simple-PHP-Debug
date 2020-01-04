@@ -44,8 +44,8 @@ $texto4 = str_replace("\n","<br> ",$texto4);
 
 
 $txt = $texto0.$texto.$texto2.$texto3.$texto4;
-//soltando a janela.
-//usa javascript para criar a nova janela.
+//output the window debug.
+//use javascript javascript to create a new window.
 echo '	
     <script>
 		//document.body.style.backgroundColor = "black";
