@@ -1,11 +1,11 @@
 <?php
 	//Here we create some variables to see the result in the debug screen.
 	session_start();
-	SESSION["variable1"]="dog";
-	SESSION["variable2"]="cat";
-	SESSION["variable3"]="fox";
-	SESSION["variable4"]= 245;
-	SESSION["variable5"]= 333;
+	$_SESSION["variable1"]="dog";
+	$_SESSION["variable2"]="cat";
+	$_SESSION["variable3"]="fox";
+	$_SESSION["variable4"]= 245;
+	$_SESSION["variable5"]= 333;
 ?>
 <!DOCTYPE html>
 <html lang="pt">
