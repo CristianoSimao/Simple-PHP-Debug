@@ -15,27 +15,20 @@ if(isset($_GET["debug"])){$debug= $_GET["debug"];}
 
 if($debug == "on"){
     $texto0 = "------ SESSION -----<br>";
-
     $texto = var_dump_ret($_SESSION);
-    //var_dump($_SESSION);
-
+    //Removing quotes and apostrophe.
     $texto = str_replace('"',' &#34 ', $texto); //The white space is to avoid strange characters.
     $texto = str_replace("'"," &#39 ", $texto);
     $texto = str_replace("\n","<br>",$texto);
-
-    //Removing quotes and apostrophe.
+    
     $texto = $texto."<br> ------ POST ------<br> ";
-
     $texto2 = var_dump_ret($_POST);
-
     $texto2 = str_replace('"',' &#34 ', $texto2);
     $texto2 = str_replace("'"," &#39 ", $texto2);
     $texto2 = str_replace("\n","<br> ",$texto2);
 
     $texto3 = "<br> ------- GET ------ <br>";
-
     $texto4 = var_dump_ret($_GET);
-
     $texto4 = str_replace('"',' &#34 ', $texto4);
     $texto4 = str_replace("'"," &#39 ", $texto4);
     $texto4 = str_replace("\n","<br> ",$texto4);
