@@ -3,11 +3,11 @@
 //Place before the </body> tag in your .php file
 
 function var_dump_ret($mixed = null) {
-  ob_start();
-  var_dump($mixed);
-  $content = ob_get_contents();
-  ob_end_clean();
-  return $content;
+    ob_start();
+    var_dump($mixed);
+    $content = ob_get_contents();
+    ob_end_clean();
+    return $content;
 }
 
 $debug = '';
@@ -42,18 +42,18 @@ if($debug == "on"){
 
 
     $txt = $texto0.$texto.$texto2.$texto3.$texto4;
-}
 ?>
 <script>
 //output the window debug.
 //use javascript javascript to create a new window.
 //document.body.style.backgroundColor = "black";
 function criajanela(){
-	var janela = window.open("", "", "width=200,height=400"); 
-	janela.document.write("<pre><?= $txt ?></pre>");
-	janela.document.body.style.backgroundColor = "black";
-	janela.document.body.style.color = "#aaaaaa";
-	janela.document.title = "Debug PHP";
+    var janela = window.open("", "", "width=200,height=400"); 
+    janela.document.write("<pre><?= $txt ?></pre>");
+    janela.document.body.style.backgroundColor = "black";
+    janela.document.body.style.color = "#aaaaaa";
+    janela.document.title = "Debug PHP";
 }	
 criajanela();
 </script>
+<?php } ?>
