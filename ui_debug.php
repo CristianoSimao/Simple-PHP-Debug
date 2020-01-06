@@ -40,7 +40,6 @@ if($debug == "on"){
     $texto4 = str_replace("'"," &#39 ", $texto4);
     $texto4 = str_replace("\n","<br> ",$texto4);
 
-
     $txt = $texto0.$texto.$texto2.$texto3.$texto4;
 ?>
 <script>
@@ -49,7 +48,7 @@ if($debug == "on"){
 //document.body.style.backgroundColor = "black";
 function criajanela(){
     var janela = window.open("", "", "width=200,height=400"); 
-    janela.document.write("<pre><?= $txt ?></pre>");
+    janela.document.write("<pre><?php echo $txt; ?></pre>");
     janela.document.body.style.backgroundColor = "black";
     janela.document.body.style.color = "#aaaaaa";
     janela.document.title = "Debug PHP";
