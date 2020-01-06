@@ -44,7 +44,7 @@ if($debug == "on"){
 ?>
 <script>
 //output the window debug.
-//use javascript javascript to create a new window.
+//use javascript to create a new window.
 //document.body.style.backgroundColor = "black";
 function criajanela(){
     var janela = window.open("", "", "width=200,height=400"); 
